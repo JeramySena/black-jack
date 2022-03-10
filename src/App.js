@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
-import Home from './pages/Home';
 import Footer from './components/Footer';
+import GameBoard from './components/GameBoard';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
 
     <section>
       <div>
-      <Home></Home>
+      <GameBoard></GameBoard>
       </div>
     </section>      
     
